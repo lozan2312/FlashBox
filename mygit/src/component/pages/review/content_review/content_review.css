@@ -1,0 +1,21 @@
+#contentreview h3{
+  font-size: 40px;
+  margin: 100px;
+  color: yellow;
+  font-family: 'Caveat', cursive;
+  text-shadow: 3px 4px 8px black;
+}
+
+@media screen and (max-width:1200px) {
+  #contentreview h3{
+    text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 20px;
+  }
+}
+
+#contentreview {
+  background: rgba(26,26,26,0.7);
+  border-right: 3px solid yellow;
+  
+}

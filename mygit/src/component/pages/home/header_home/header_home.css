@@ -1,0 +1,21 @@
+/* .bg-img{
+  background-image: url('../../../general/images/8888.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ */
+
+
+@media screen and (max-width:1200px) {
+  #logohead h1{
+    display: none!important;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .sloganhome{
+    margin-top:-60px;
+    font-size: 20px;
+  }
+}

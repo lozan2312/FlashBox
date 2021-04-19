@@ -1,0 +1,30 @@
+.formsign{
+  padding: 50px 15%;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  background-color: rgba(26,26,26,0.5);
+  border-left: 3px solid yellow;
+  position: relative;
+  /* border: 5px solid rgba(26,26,26,0.5); */
+}
+
+#border{
+  /* border: 3px solid yellow; */
+  padding: 20px;
+}
+
+.formsign input:nth-child(2){
+  width:auto;
+}
+
+.formsign label{
+  color: yellow;
+  font-size: 20px;
+}
+
+@media screen and (max-width:1000px) {
+  .formsign{
+    height: 600px;
+  }
+
+}

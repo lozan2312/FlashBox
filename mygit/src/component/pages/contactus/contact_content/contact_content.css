@@ -1,0 +1,17 @@
+.personmessage Button{
+  margin-left: 35%;
+  margin-bottom: 20px;
+}
+
+.thank{
+  font-family: 'Caveat', cursive;
+}
+
+@media screen and (max-width: 767px) {
+  .thank{
+    font-size: 40px;
+  }
+  #heading span{
+    font-size: 28px;
+  }
+}

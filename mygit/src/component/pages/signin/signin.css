@@ -1,0 +1,13 @@
+.bgs-img{
+  background-image: url("../../general/images/photo.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgs-img .backg{
+    background: rgba(73, 85, 97,0.8);
+    height: 1000px;
+}
