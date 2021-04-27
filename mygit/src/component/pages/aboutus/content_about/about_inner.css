@@ -1,0 +1,16 @@
+#aboutInner{
+  margin-top: 150px;
+  margin-bottom: 120px;
+}
+#aboutInner img{
+  width: 600px;
+  height: 400px;
+}
+#aboutInner h4{
+  font-family: 'Caveat', cursive;
+  color: yellow;
+  font-size: 40px;
+}
+#aboutInner p{
+  color: white;
+}
