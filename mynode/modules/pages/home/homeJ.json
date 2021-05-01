@@ -1,0 +1,99 @@
+[
+  {
+    "steps":[
+    {
+      "number":"1",
+      "text":"Join in",
+      "icon":"fas fa-user-plus",
+      "url":"/about"
+    },
+    {
+      "number":"2",
+      "text":"Make a deal",
+      "icon":"far fa-handshake",
+      "url":"/about"
+    },
+    {
+      "number":"3",
+      "text":"Delivery",
+      "icon":"fas fa-truck",
+      "url":"/about"
+    },
+    {
+      "number":"4",
+      "text":"Home",
+      "icon":"fas fa-house-user",
+      "url":"/about"
+    }
+    ]
+  },
+  {
+    "suggestion":[
+        {
+        "url":"/img/card/a.jpg",
+        "head":"We're hiring! Join our Team.",
+        "text":"<p class='card-text'>&#8226;Do you want to be part of our amazing team?</p>"
+              +"<p class='card-text'>&#8226;With adequate pay and bonuses !?</p>"
+              +"<p class='card-text'>&#8226;Send us your CV,<p>"
+              +"<p class='card-text'>&#8226;to this <a href='#email'>Email:<u>FlashBox@Jobs.com.</u></a> And we'll get back to you."
+              +"</p>"
+      },
+        {
+          "url":"/img/card/b.jpg",
+          "head":"Do you have an urgent question?",
+          "text":"<p class='card-text'><a href='#chat'><u>Chat us now!</u></a></p>"+
+                "<p class='card-text'>"+
+                "Send a message and a representative will get back to you in turn."
+                +"</p>"
+      },
+      {
+        "url":"/img/card/join.jpg",
+        "head":"Your opinion is important to us!!",
+        "text":"<p class='card-text'>We would love to hear from you how our shipping experience was.</p>"
+            +"<p class='card-text'>"
+            +"<a href='/review'><u>Rate Us</u></a> and express your opinion."
+            +"</p>"
+      }
+    ]
+  },
+  {
+    "carousel":[
+      {
+        "cName":"carousel-item active",
+        "classN":"carousel-caption caption1 col-7",
+        "url":"/img/carousel/chain.jpg",
+        "text":"<h1>Flash Box</h1>"+
+          "<h6>We are the solution for your shipping problem</h6>"
+          +"<span className='capspan'>Anytime, anywhere and on time.</span>"
+      },
+      {
+        "cName":"carousel-item",
+        "classN":"carousel-caption caption2",
+        "url":"/img/carousel/753.jpg",
+        "text":"<span>Your package is in a flash!</span>"
+      },
+      {
+        "cName":"carousel-item",
+        "classN":"carousel-caption caption3",
+        "url":"/img/carousel/about.jpg",
+        "text":"<span>Home Courier Services</span>"
+              +"<p className='mt-3'>"
+              +"<span>Faster</span>"
+              +"<span>Smarter</span>"
+              +"<span>Reliable services.</span>"
+              +"</p>"
+      },
+      {
+        "cName":"carousel-item",
+        "classN":"carousel-caption caption4",
+        "url":"/img/carousel/two.jpg",
+        "text":"<span> Recycling carton</span>"
+            +"<p className='mt-3'>"
+            +"<span className='quote'>'The greatest threat to our planet is the belief that somone else will save it.'"
+            +"<br>ROBERT SWAN</span>"
+            +"<div className='mt-4'><a href='#recycle'>Read More</a></div>"
+            +"</p>"
+      }
+    ]
+  }
+]
