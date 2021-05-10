@@ -9,7 +9,7 @@ router.use(function timeLog (req, res, next) {
 })
 
 router.get('/review', function (req, res) {
-  res.send('what your rates')
+  res.send('rate us')
 })
 
 
