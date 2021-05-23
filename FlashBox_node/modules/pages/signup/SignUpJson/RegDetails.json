@@ -1,0 +1,75 @@
+[
+  {
+    "type":"text",
+    "for":"firstname",
+    "value":"First Name:",
+    "placeholder":"First Name"
+  },
+  {
+    "type":"text",
+    "for":"lastname",
+    "value":"Last Name:",
+    "placeholder":"Last Name"
+  },
+  {
+    "type":"",
+    "for":"id_num",
+    "value":"ID number:",
+    "placeholder":"ID number"
+  },
+  {
+    "type":"email",
+    "for":"email",
+    "value":"E-mail:",
+    "placeholder":"Enter your Email"
+  },
+  {
+    "type":"tel",
+    "for":"phone",
+    "value":"Phone Number:",
+    "placeholder":"Phone Number"
+  },
+  {
+    "type":"text",
+    "for":"city",
+    "value":"City:",
+    "placeholder":"City"
+  },
+  {
+    "type":"text",
+    "for":"street",
+    "value":"Street:",
+    "placeholder":"street"
+  },
+  {
+    "type":"text",
+    "for":"zip",
+    "value":"Zip Code:",
+    "placeholder":"Zip code"
+  },
+  {
+    "type":"date",
+    "for":"BirthDate",
+    "value":"Date of birth:",
+    "placeholder":""
+  },
+  {
+    "type":"text",
+    "for":"usrname",
+    "value":"Username:",
+    "placeholder":"Choose Username"
+  },
+  {
+    "type":"text",
+    "for":"psw",
+    "value":"Password:",
+    "placeholder":"Enter Password"
+  },
+  {
+    "type":"text",
+    "for":"psw-repeat",
+    "value":"Repeat Password:",
+    "placeholder":"Repeat Password"
+  }
+
+]

@@ -1,0 +1,64 @@
+#contentabout h1{
+  color: white;
+  margin-top:150px;
+  margin-left: 40px;
+  text-shadow: 1px 2px 3px black;
+}
+.line{
+  border-left: 6px solid yellow;
+  height: 110px;
+  position: absolute;
+  margin-left: 30px;
+}
+#contentabout li{
+  list-style:disc;
+}
+#contentabout h6{
+  color: yellow;
+  text-shadow: 1px 2px 3px black;
+  margin-left: 40px;
+}
+
+#contentabout h3{
+  margin-top: 80px;
+}
+#contentabout span{
+  margin-top: 20px;
+}
+#contentabout h2{
+  font-family: 'Caveat', cursive;
+  text-shadow: 2px 2px 8px black;
+  color:yellow;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+
+#aboutdeal .card{
+  padding-top: 25px;
+  box-shadow: 1px 3px 15px black;
+  background: none;
+}
+#aboutdeal span{
+  font-size: 40px;
+  border:2px solid white;
+  border-radius: 100%;
+  padding: 20px 40px;
+  background: rgba(44, 51, 58,0.7);
+  color: white;
+  text-align: center;
+  box-shadow: 1px 3px 15px black;
+}
+#aboutdeal span:hover{
+    color: yellow;
+}
+
+#aboutdeal p{
+  color: white;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+#aboutdeal a{
+  text-decoration: none;
+}

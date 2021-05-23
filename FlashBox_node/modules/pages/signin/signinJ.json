@@ -1,0 +1,14 @@
+[
+  {
+    "for":"uname",
+    "type":"text",
+    "placeholder":"Enter username",
+    "value":"Username:"
+  },
+  {
+    "for":"pwd",
+    "type":"password",
+    "placeholder":"Enter password",
+    "value":"Password:"
+  }
+]

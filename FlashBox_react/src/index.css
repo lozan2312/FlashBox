@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root{
+  background-image: url("./component/general/images/background.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}

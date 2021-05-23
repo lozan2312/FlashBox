@@ -1,0 +1,38 @@
+.topmenu nav{
+  border-bottom: 2px solid rgba(255, 255, 0);
+}
+.topmenu a{
+  font-size: 13px;
+  color: white;
+}
+.topmenu span:hover{
+  color: yellow;
+}
+
+@media screen and (max-width:1200px) {
+  .topmenu ul:last-child{
+    margin-left: -450px!important;
+  flex-direction: row;
+  }
+}
+@media screen and (max-width:770px) {
+  .topmenu ul:last-child{
+    margin-left: -450px!important;
+  }
+}
+@media screen and (max-width:770px) {
+  .topmenu ul{
+    flex-direction: column;
+
+  }
+}
+.topmenu ul:last-child{
+  margin-left: 450px;
+}
+.topmenu ul:last-child i:hover{
+  color: yellow;
+}
+
+.topmenu ul:first-child li:last-child{
+  display: none;
+}

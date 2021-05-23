@@ -1,0 +1,12 @@
+@media screen and (max-width:1200px) {
+  #logohead h1{
+    display: none!important;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .sloganhome{
+    margin-top:20px;
+    font-size: 60px;
+  }
+}

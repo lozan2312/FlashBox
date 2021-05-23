@@ -1,0 +1,61 @@
+.search button:last-child,.search button:first-child{
+  background: none;
+  border: none;
+  color: white;
+}
+.search button:last-child{
+  font-size: 25px;
+}
+.search button:first-child{
+  font-size: 13px;
+}
+ .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(44, 51, 58);
+    background-color: rgba(55, 64, 73,0.9);
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.overlay-content  {
+  text-align: center;
+  margin-top: 100px;
+  display:block;
+}
+.search input{
+  width: 400px;
+  height: 40px;
+
+}
+
+.overlay a {
+    float: right;
+    padding: 10px;
+    margin-top:-150px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #cccccc;
+}
+
+.overlay .closebtn {
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

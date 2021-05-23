@@ -1,0 +1,105 @@
+#carousela .carousel{
+  margin-top: 150px;
+}
+
+#carousela .carousel-inner img {
+    filter:grayscale(60%);
+    width:100%;
+    height:500px;
+    border: 5px solid rgb(44, 51, 58);
+  }
+#carousela .carousel-control-prev-icon,
+#carousela .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+#carousela .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: yellow;
+}
+
+#carousela .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: yellow;
+}
+
+#carousela .carousel-caption{
+  background-color: rgba(0,0,0,0.4);
+}
+
+#carousela .carousel-item:first-child .carousel-caption{
+  margin-bottom: 150px;
+  text-align: left;
+}
+
+#carousela .carousel-item:first-child .carousel-caption h1,
+#carousela .carousel-item:first-child .carousel-caption span{
+  text-shadow: 1px 2px 3px black;
+}
+#carousela .carousel-item:first-child .carousel-caption h6{
+  font-size: 35px;
+  color: yellow;
+  font-family: 'Caveat', cursive;
+  border-bottom: 2px solid yellow;
+  box-shadow: 3px 2px 1px 0px white;
+}
+#carousela .carousel-item:first-child .carousel-caption span{
+  font-size: 20px;
+}
+
+#carousela .carousel-item:nth-child(2) .carousel-caption{
+  font-size: 40px;
+  text-shadow: 3px 5px 3px black;
+  border-left: 10px double yellow;
+  border-right: 10px double yellow;
+}
+#carousela .carousel-item:nth-child(3) .carousel-caption{
+  font-size: 30px;
+  margin-bottom: 150px;
+  text-shadow: 3px 5px 3px black;
+}
+#carousela .carousel-item:nth-child(3) span:only-of-type{
+  border-bottom: 2px solid white;
+  box-shadow: 0px 2px 1px 0px black;
+}
+#carousela .carousel-item:nth-child(4) span:only-of-type{
+  color: yellow;
+  font-size: 40px;
+  text-shadow: 3px 2px 3px black;
+}
+
+#carousela .carousel-item:nth-child(3) .carousel-caption p span:nth-child(1),
+#carousela .carousel-item:nth-child(3) .carousel-caption p span:nth-child(2){
+  padding-right: 10px;
+  border-right: 5px solid white;
+}
+#carousela .carousel-item:nth-child(3) .carousel-caption p span{
+  font-family: 'Caveat', cursive;
+  color: yellow;
+}
+
+#carousela .carousel-item:nth-child(4) .carousel-caption p span{
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 19px;
+  text-shadow: 3px 2px 3px black;
+}
+#carousela .carousel-item:nth-child(4) .carousel-caption a{
+  padding: 5px;
+  text-decoration: none;
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+}
+#carousela .carousel-item:nth-child(4) .carousel-caption a:hover{
+  background-color: white;
+}

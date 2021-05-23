@@ -1,0 +1,29 @@
+#cardFactors .card{
+  border: none;
+}
+#cardFactors h2{
+  font-family: 'Caveat', cursive;
+  text-shadow: 2px 2px 8px black;
+  color:yellow;
+}
+
+#cardFactors i{
+  color: white;
+  font-size: 80px;
+}
+
+#cardFactors p{
+  color: white;
+  font-size: 25px;
+}
+
+#cardFactors .uline{
+  border-bottom: 6px double yellow;
+  width: 60px;
+  margin-left: 38%;
+}
+@media screen and (max-width:900px) {
+  #cardFactors h2{
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,9 @@
+#signup{
+  background-image: url("../../general/images/background.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+
+}

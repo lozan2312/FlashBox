@@ -1,0 +1,26 @@
+[
+    {
+      "for":"usr",
+      "value":"First name:",
+      "type":"text",
+      "placeholder":"First Name"
+    },
+    {
+      "for":"usr",
+      "value":"Last name:",
+      "type":"text",
+      "placeholder":"Last Name"
+    },
+    {
+      "for":"email",
+      "value":"Email:",
+      "type":"email",
+      "placeholder":"Email"
+    },
+    {
+      "for":"phone",
+      "value":"Phone:",
+      "type":"tel",
+      "placeholder":"Phone"
+    }
+  ]

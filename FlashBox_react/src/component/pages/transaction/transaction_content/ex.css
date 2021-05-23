@@ -1,0 +1,6 @@
+#ex div:nth-child(2) label{
+  margin-right: 8px;
+}
+#ex div:nth-child(2) span{
+  color: red;
+}

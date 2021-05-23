@@ -1,0 +1,16 @@
+.labelstyle{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px black;
+  font-size: 30px;
+  color: yellow;
+}
+
+.MuiRating-iconFilled{
+  color: white;
+}
+
+.MuiRating-icon{
+  font-size: 40px;
+}

@@ -1,0 +1,60 @@
+.cardsugges .card{
+    border: 5px solid rgb(44, 51, 58);
+}
+.cardsugges img{
+  width:100%;
+  height:250px;
+}
+.cardsugges .card-body{
+  font-size: 15px;
+}
+.cardsugges h6{
+  color:rgb(26,26,26);
+}
+.cardsugges a{
+  color: yellow;
+}
+.cardsugges .card{
+  margin-top: 100px;
+}
+.vl {
+  border-left: 6px solid yellow;
+  height: 120px;
+  position: absolute;
+  padding-left: -5px;
+  top: 0;
+}
+.suggestitle{
+  font-family: 'RocknRoll One', sans-serif;
+  padding-left: 50px;
+  margin-top: 120px;
+}
+.suggestitle h2{
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.suggestitle h6{
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.suggestitle h2,.suggestitle h6{
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+.card{
+  background: none;
+}
+
+.cardsugges .card {
+  position: relative;
+  width: 50%;
+}
+
+.cardsugges .card-text{
+  color: white;
+}
+
+.cardsugges h6{
+  color: yellow
+}

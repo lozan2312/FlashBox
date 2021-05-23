@@ -1,0 +1,37 @@
+.personmessage{
+  margin-top: 100px;
+}
+.personmessage Button{
+  margin-left: 35%;
+  margin-bottom: 20px;
+}
+.personmessage input{
+  border:3px solid white;
+}
+.personmessage input:focus{
+  background: none;
+color: yellow;
+}
+.personmessage Label{
+  color: white;
+}
+.personmessage h3{
+  color: yellow;
+}
+.personmessage p{
+  color: white;
+  font-size: 20px;
+}
+.thank{
+  font-family: 'Caveat', cursive;
+  color: yellow;
+}
+
+@media screen and (max-width: 767px) {
+  .thank{
+    font-size: 40px;
+  }
+  #heading span{
+    font-size: 28px;
+  }
+}

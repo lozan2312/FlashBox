@@ -1,0 +1,12 @@
+#title h1{
+  font-family: 'Lusitana', serif;
+  text-shadow: 10px 10px 10px black;
+  color:white;
+  margin-top: 60px;
+}
+#title h2{
+  font-family: 'Caveat', cursive;
+  text-shadow: 2px 2px 8px black;
+  color:yellow;
+  font-size: 40px;
+}

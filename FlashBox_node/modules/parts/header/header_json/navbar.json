@@ -1,0 +1,37 @@
+[
+  {
+    "name":"Home",
+    "url":"/",
+    "cName":"nav-links"
+  },
+  {
+    "name":"About Us",
+    "url":"/about",
+    "cName":"nav-links"
+  },
+  {
+    "name":"Transaction",
+    "url":"/transaction",
+    "cName":"nav-links"
+  },
+  {
+    "name":"Contact Us",
+    "url":"/contact",
+    "cName":"nav-links"
+  },
+  {
+    "name":"Review",
+    "url":"/review",
+    "cName":"nav-links"
+  },
+  {
+    "name":"Sign In",
+    "url":"/signIn",
+    "cName":"nav-links"
+  },
+  {
+    "name":"Sign Up",
+    "url":"/signUp",
+    "cName":"nav-links"
+  }
+]

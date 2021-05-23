@@ -1,0 +1,6 @@
+#message{
+  width:400px;
+}
+#message textarea{
+  border:3px solid white;
+}

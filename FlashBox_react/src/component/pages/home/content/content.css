@@ -1,0 +1,36 @@
+#content>h1{
+  margin-top: 150px;
+  margin-bottom: 80px;
+  /* font-family: 'Lusitana', serif; */
+  text-shadow: 4px 4px 8px black;
+  color:white;
+border-top: 3px solid yellow;
+padding-top: 50px;
+}
+
+#homesteps i{
+  color: yellow;
+  text-shadow: 2px 2px 1px black;
+  text-align: center;
+}
+#homesteps .card{
+  border: none;
+  background: none;
+}
+#homesteps span{
+  font-size: 70px;
+  border-radius: 100%;
+  padding: 20px 40px;
+  background: rgb(44, 51, 58);
+  color: white;
+  text-align: center;
+}
+#homesteps span:hover{
+    color: yellow;
+}
+
+#homesteps p{
+  color: white;
+  padding-top: 20px;
+  font-size: 25px;
+}

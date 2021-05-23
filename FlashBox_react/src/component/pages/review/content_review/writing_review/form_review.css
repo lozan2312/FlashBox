@@ -1,0 +1,18 @@
+.formreview .form-group{
+margin-top: 50px;
+}
+
+.formreview Button{
+  margin-left: 170px;
+}
+.formreview #message label{
+  color: yellow;
+}
+@media screen and (max-width: 767px) {
+  .formreview Button{
+    margin-left: 0;
+  }
+}
+.formreview .contact{
+  color: white;
+}
