@@ -6,7 +6,7 @@ let Subjects = async ()=> {
   return await generalDB.DBquery("SELECT * FROM checklist")
 }
 let PersonDetails = async ()=> {
-  return await generalDB.DBquery("SELECT * FROM form_items WHERE form_list_id= 2")
+  return await generalDB.DBquery("SELECT * FROM `form_items` INNER JOIN `form_list` on `form_items`.`form_list_id`=`form_list`.`Form_List_ID` WHERE `form_list`.`Form_List_ID`=1;")
 }
 
 

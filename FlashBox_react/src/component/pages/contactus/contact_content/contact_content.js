@@ -3,7 +3,7 @@ import Persondetails from '../../../general/FormDetails/PersonDetails';
 import Button from '../../../general/Button/Button';
 import './contact_content.css';
 import Message from '../../../general/FormDetails/Message';
-
+import ChatBox from '../../../general/chat/chat';
 class ContentContact extends React.Component{
   constructor(props){
     super(props);
@@ -31,6 +31,7 @@ class ContentContact extends React.Component{
         <div class="col-12 thank text-center display-4 mt-5">
           <span>Thank You!</span>
         </div>
+        <ChatBox/>
       </div>
     )}}
 export default ContentContact

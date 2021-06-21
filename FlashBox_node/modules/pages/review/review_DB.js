@@ -7,11 +7,11 @@ let Features = async ()=> {
 }
 
 let Reviewer = async ()=> {
-  return await generalDB.DBquery("SELECT * FROM carousel")
+  return await generalDB.DBquery("SELECT * FROM reviewer_json_post")
 }
 
 let ReviewDetails = async ()=> {
-  return await generalDB.DBquery("SELECT * FROM form_items WHERE form_list_id= 3")
+  return await generalDB.DBquery("SELECT * FROM `form_items` INNER JOIN `form_list` on `form_items`.`form_list_id`=`form_list`.`Form_List_ID` WHERE `form_list`.`Form_List_ID`=2;")
 }
 module.exports.ReviewPageJson = async ()=>{
   return JSON.parse('{"Features":'+JSON.stringify(await Features())+',"Reviewer":'+JSON.stringify(await Reviewer())

@@ -14,7 +14,7 @@ class ChatBox extends Component {
 
   render() {
     return (
-      <div className="chatBox">
+      <div className="chatBox" id="chat">
         <Chat
           handleNewUserMessage={this.handleNewUserMessage}
           title="Chat With Us"

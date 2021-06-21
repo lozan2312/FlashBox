@@ -1,15 +1,13 @@
 const express = require('express')
 const header=require('../../parts/header/header_controller.js')
-const regular=require('./SignUpJson/RegDetails.json')
-const business=require('./SignUpJson/BusDetails.json')
 const generalDB = require('../../../general_DB.js')
 
 
 let RegDetails = async () => {
-  return await generalDB.DBquery("SELECT * FROM form_items WHERE form_list_id= 5")
+  return await generalDB.DBquery("SELECT * FROM `form_items` INNER JOIN `form_list` on `form_items`.`form_list_id`=`form_list`.`Form_List_ID` WHERE `form_list`.`Form_List_ID`=5;")
 }
 let BusDetails = async () => {
-  return await generalDB.DBquery("SELECT * FROM form_items WHERE form_list_id= 4")
+  return await generalDB.DBquery("SELECT * FROM `form_items` INNER JOIN `form_list` on `form_items`.`form_list_id`=`form_list`.`Form_List_ID` WHERE `form_list`.`Form_List_ID`=4;")
 }
 
 module.exports.SignUpPageJson = async () => {

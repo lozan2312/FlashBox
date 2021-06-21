@@ -1,7 +1,4 @@
 const express = require('express')
-const aboutfactors = require('./aboutJson/factors.json');
-const aboutdeals = require('./aboutJson/deals.json');
-const aboutdetails = require('./aboutJson/details.json');
 const header=require('../../parts/header/header_controller.js')
 const generalDB = require('../../../general_DB.js')
 
@@ -9,7 +6,7 @@ let Factors = async ()=> {
   return await generalDB.DBquery("SELECT * FROM factors")
 }
 let Deals = async ()=> {
-  return await generalDB.DBquery("SELECT * FROM deals")
+  return await generalDB.DBquery("SELECT option_type AS text,Option_ID AS number FROM transaction_option")
 }
 
 let Details = async ()=> {

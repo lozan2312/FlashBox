@@ -66,7 +66,7 @@ class CustomerDetails extends React.Component{
 
     if (!fields["psw-repeat"]) {
       formIsValid = false;
-      errors["psw-repeat"] = "Please enter your confirm password.";
+      errors["psw-repeat"] = "Try again";
     }
 
     if (typeof fields["password"] !== "undefined" && typeof fields["psw-repeat"] !== "undefined") {
