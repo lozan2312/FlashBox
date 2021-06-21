@@ -4,7 +4,6 @@ import {
   Card, CardImg, CardText, CardBody,CardFooter,
   CardTitle, CardSubtitle, Button,CardDeck
 } from 'reactstrap';
-// import CardReview from './card_review_json';
 import Rate from '../../../rating/rating'
 
 class CardReviews extends React.Component{

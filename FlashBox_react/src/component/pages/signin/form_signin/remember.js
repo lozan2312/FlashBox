@@ -1,17 +1,17 @@
 import React from 'react';
-import Button from '../../../general/button/button';
+import Button from '../../../general/Button/Button';
 
 
 class RememberMe extends React.Component{
   render(){
     return(
       <div>
-      <div class="form-group form-check">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" name="remember"/> Remember Me.
+      <div className="form-check remember mt-3 mb-3">
+        <label className="form-check-label">
+          <input className="form-check-input" type="checkbox" name="remember"/> Remember Me.
         </label>
       </div>
-      <Button name="Submit" type="submit"/>
+      <a href="/customerProfile"><Button name="Submit" type="submit"/></a>
       </div>
     )
   }

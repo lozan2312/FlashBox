@@ -23,7 +23,7 @@ class Home extends React.Component {
         return (<p>ops</p>);
     return(
       <div id="home">
-          <HeaderHome header={this.state.data.Header}/>
+          <HeaderHome data={this.state.data}/>
           <Content data={this.state.data.Content}/>
           <Footer  data={this.state.data.Header}/>
      </div>

@@ -20,7 +20,7 @@
 #cardFactors .uline{
   border-bottom: 6px double yellow;
   width: 60px;
-  margin-left: 38%;
+  margin-left: 42%;
 }
 @media screen and (max-width:900px) {
   #cardFactors h2{

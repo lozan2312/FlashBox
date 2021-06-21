@@ -5,15 +5,18 @@
   background-color: rgba(26,26,26,0.5);
   border-left: 3px solid yellow;
   position: relative;
-  /* border: 5px solid rgba(26,26,26,0.5); */
 }
 .formsign input{
   background-color: rgba(26,26,26,0.3);
   border:3px solid white;
+  
 }
 #border{
-  /* border: 3px solid yellow; */
   padding: 20px;
+}
+
+.formsign .form-check-input{
+  position:inherit;
 }
 
 .formsign input:nth-child(2){

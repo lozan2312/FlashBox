@@ -3,7 +3,8 @@
   padding: 15px;
   color: yellow;
   background: none;
-  box-shadow: 8px 1px 15px black;
+  box-shadow: 15px 10px 5px rgba(26,26,26);
+  border: 1px solid white;
 }
 
 #SignupContent{
@@ -28,7 +29,6 @@
   border: 3px solid white;
 }
 
-
 #SignupContent span{
     padding: 15px;
     font-size: 20px;
@@ -37,4 +37,13 @@
 }
 #SignupContent  input:focus {
     color: yellow;
+}
+.redButton{
+  background-color: red;
+  color: red;
+}
+
+.whiteButton{
+  background-color: white;
+  color: black;
 }

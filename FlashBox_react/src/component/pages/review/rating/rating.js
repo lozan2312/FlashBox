@@ -6,13 +6,14 @@ class Rate extends React.Component{
   constructor(props){
     super(props)
   }
+
   render(){
     return(
       <div>
         <Rating
-           value={this.props.value}
+           value={5}
            max={5}
-           onChange={(i) => console.log('onChange ' + i)}
+           onChange={(value) => console.log(`Rated with value ${value}`)}
            readOnly
          />
       </div>

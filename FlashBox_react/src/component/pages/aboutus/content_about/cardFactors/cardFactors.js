@@ -1,6 +1,6 @@
 import React from 'react';
 import './cardFactors.css';
-import Button from '../../../../general/button/button'
+import Button from '../../../../general/Button/Button'
 
 
 class CardFactors extends React.Component{

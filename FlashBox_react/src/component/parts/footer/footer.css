@@ -23,6 +23,7 @@
 
 #footer img{
   width: 120px;
+  margin-left: 20px;
 }
 #footer  ul:nth-child(2){
   justify-content: center;
@@ -31,7 +32,8 @@
 #footer  ul:nth-child(2) li:nth-child(3),
 #footer  ul:nth-child(2) li:nth-child(5),
 #footer  ul:nth-child(2) li:nth-child(6),
-#footer  ul:nth-child(2) li:nth-child(7){
+#footer  ul:nth-child(2) li:nth-child(7),
+#footer  ul button{
   display: none;
 }
 #footer ul:nth-child(2) li{
@@ -50,7 +52,7 @@
 #footer .col-md-4:nth-child(2) span:first-child{
   font-size: 30px;
   font-family: 'Caveat', cursive;
-  margin-left: 80px;
+  margin-left: 20px;
   text-shadow: 1px 2px 3px black;
   color: white;
   border-bottom: 2px double yellow

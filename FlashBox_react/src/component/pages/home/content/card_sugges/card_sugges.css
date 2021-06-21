@@ -1,0 +1,36 @@
+.cardsugges .card{
+    border: 5px solid rgb(44, 51, 58);
+}
+.cardsugges img{
+  width:100%;
+  height:250px;
+}
+.cardsugges .card-body{
+  font-size: 15px;
+}
+.cardsugges h6{
+  color:rgb(26,26,26);
+}
+.cardsugges a{
+  color: yellow;
+}
+.cardsugges .card{
+  margin-top: 100px;
+}
+
+.card{
+  background: none;
+}
+
+.cardsugges .card {
+  position: relative;
+  width: 50%;
+}
+
+.cardsugges .card-text{
+  color: white;
+}
+
+.cardsugges h6{
+  color: yellow
+}

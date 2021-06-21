@@ -13,7 +13,7 @@ class Carousela extends React.Component{
       <Carousel>
       {this.props.data.map((item)=>{
         return(
-          <Carousel.Item interval={1000}>
+          <Carousel.Item >
             <center><img src={item.url}/></center>
             <Carousel.Caption>
             <div dangerouslySetInnerHTML={{__html:item.text}}>

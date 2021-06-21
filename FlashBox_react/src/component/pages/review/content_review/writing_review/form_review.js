@@ -1,10 +1,9 @@
 import React from 'react';
-import ReviewJson from './form_review_json';
-import Persondetails from '../../../../general/form_details/person_details';
-import Button from '../../../../general/button/button';
+import Persondetails from '../../../../general/FormDetails/PersonDetails';
+import Button from '../../../../general/Button/Button';
 import HoverRating from './person_rate';
 import './form_review.css'
-import Message from '../../../../general/form_details/message';
+import Message from '../../../../general/FormDetails/Message';
 
 class FormReview extends React.Component{
   constructor(props) {

@@ -1,10 +1,10 @@
 import React from "react";
-import Button from '../../../general/button/button';
+import Button from '../../../general/Button/Button';
 import Title from '../../../general/title/title';
 import RememberMe from './remember';
 import './allSignin.css';
 import NoteSignUp from './note_signup'
-import FormSignIn from './signin_form'
+import FormSignIn from './signin_form';
 
 
 class AllSignIn extends React.Component{

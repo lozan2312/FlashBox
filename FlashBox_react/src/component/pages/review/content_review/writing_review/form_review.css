@@ -3,7 +3,8 @@ margin-top: 50px;
 }
 
 .formreview Button{
-  margin-left: 170px;
+  margin-left: -15px;
+  margin-bottom: 20px;
 }
 .formreview #message label{
   color: yellow;

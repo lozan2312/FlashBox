@@ -6,11 +6,14 @@
   margin-bottom: 20px;
 }
 .personmessage input{
-  border:3px solid white;
+  background: white;
+  box-shadow: none;
 }
+
 .personmessage input:focus{
-  background: none;
-color: yellow;
+  color: rgba(26,26,26);
+  box-shadow: none;
+
 }
 .personmessage Label{
   color: white;

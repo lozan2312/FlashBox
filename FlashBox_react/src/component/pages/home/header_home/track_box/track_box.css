@@ -7,10 +7,23 @@
 .trackbox input,.butn:hover{
   border: 2px solid white;
 }
-.trackbox input:focus{
-  background: rgba(26,26,26,0.8);
-  color: yellow;
+
+.trackbox button:hover{
+  border: 1px solid black;
 }
+
+.trackbox button{
+  width:100px;
+  background: white;
+  padding: 6px;
+  color:rgb(26,26,26);
+  border: 2px solid black;
+}
+.trackbox button:focus{
+  border: 2px solid black;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(26,26,26);
+}
+
 @media screen and (max-width: 1200px) {
   .trackbox h3{
     margin-top: -30px;

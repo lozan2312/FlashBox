@@ -4,14 +4,14 @@
 
 #carousela .carousel-inner img {
     filter:grayscale(60%);
-    width:100%;
+    width:800px;
     height:500px;
     border: 5px solid rgb(44, 51, 58);
   }
 #carousela .carousel-control-prev-icon,
 #carousela .carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   border: 2px solid black;
   border-radius: 50%;
   background: black;
@@ -22,13 +22,13 @@
 #carousela .carousel-control-next-icon:after
 {
   content: '>';
-  font-size: 55px;
+  font-size: 50px;
   color: yellow;
 }
 
 #carousela .carousel-control-prev-icon:after {
   content: '<';
-  font-size: 55px;
+  font-size: 50px;
   color: yellow;
 }
 
@@ -46,7 +46,7 @@
   text-shadow: 1px 2px 3px black;
 }
 #carousela .carousel-item:first-child .carousel-caption h6{
-  font-size: 35px;
+  font-size: 30px;
   color: yellow;
   font-family: 'Caveat', cursive;
   border-bottom: 2px solid yellow;
@@ -57,7 +57,7 @@
 }
 
 #carousela .carousel-item:nth-child(2) .carousel-caption{
-  font-size: 40px;
+  font-size: 30px;
   text-shadow: 3px 5px 3px black;
   border-left: 10px double yellow;
   border-right: 10px double yellow;
@@ -73,7 +73,7 @@
 }
 #carousela .carousel-item:nth-child(4) span:only-of-type{
   color: yellow;
-  font-size: 40px;
+  font-size: 35px;
   text-shadow: 3px 2px 3px black;
 }
 

@@ -2,9 +2,7 @@ import React from 'react';
 import './content_about.css';
 import AboutInner from './about_inner'
 import CardFactors from './cardFactors/cardFactors'
-import CardFactorsData from './cardFactors/factorsData'
-import CardNumber from '../../../general/card_number/card_number'
-import DealsData from './cardDeals/cardDeals'
+import CardNumber from '../../../general/CardNumber/CardNumber'
 
 
 class ContentAbout extends React.Component{

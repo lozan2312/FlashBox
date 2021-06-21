@@ -1,0 +1,25 @@
+#SideTitle .vl {
+  border-left: 6px solid yellow;
+  height: 120px;
+  position: absolute;
+  padding-left: -5px;
+  top: 0;
+}
+#SideTitle .suggestitle{
+  font-family: 'RocknRoll One', sans-serif;
+  padding-left: 50px;
+  margin-top: 120px;
+}
+#SideTitle .suggestitle h2{
+  padding-top: 15px;
+  padding-left: 10px;
+}
+#SideTitle .suggestitle h6{
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+#SideTitle .suggestitle h2,.suggestitle h6{
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}

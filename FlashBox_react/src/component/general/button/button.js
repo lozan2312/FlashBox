@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './button.css';
+import './Button.css';
 
 
 const Button = (props) => {
@@ -7,7 +7,10 @@ const Button = (props) => {
 
   return (
     <div>
-      <button className="butn" type={props.type} onClick={handleClick}>
+      <button
+        className="butn"
+        type={props.type}
+        onClick={handleClick}>
         {props.name}
       </button>
     </div>

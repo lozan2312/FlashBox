@@ -14,10 +14,10 @@ class HeaderHome extends React.Component{
     return(
       <div className="bg-img">
         <div id="header" className="container">
-          <Menu menu={this.props.header}/>
-          <Navbar nav={this.props.header}/>
+          <Menu menu={this.props.data.Header}/>
+          <Navbar nav={this.props.data.Header}/>
           <Title sclass="sloganhome" id="logohead" logo_head="Flash Box" slogan="Express Courier Services"/>
-          <TrackBox/>
+          <TrackBox data={this.props.data.Content.Tracking}/>
         </div>
       </div>
     )

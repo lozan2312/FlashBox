@@ -7,7 +7,6 @@ class FormSignIn extends React.Component{
     super(props);
   }
   render(){
-    console.log(this.props.data);
     return(
       <div>
         {this.props.data.map((item)=>{

@@ -24,7 +24,7 @@ class Footer extends React.Component{
                 <MenuRightItems right={this.props.data.MenuRight}/>
               </MDBCol>
               <MDBCol md="4">
-                <span>Contact Us</span>
+                <span>Contact Us :</span>
                 <MenuLeftItems left={this.props.data.MenuLeft}/>
               </MDBCol>
             </MDBRow>

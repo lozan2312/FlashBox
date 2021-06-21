@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderTransaction from './header_transaction/header_transaction'
 import Footer from '../../parts/footer/footer'
 import TransactionContent from './transaction_content/transaction_content'
-import Mapping from './map/map'
+
 
 class Transaction extends React.Component{
   constructor() {
@@ -18,11 +18,11 @@ class Transaction extends React.Component{
   render(){
     if (this.state.data.length==0)
         return (<p>ops</p>);
+
     return(
       <div>
       <HeaderTransaction header={this.state.data.Header}/>
-      <TransactionContent/>
-      <Mapping/>
+      <TransactionContent data={this.state.data.Content}/>
       <Footer  data={this.state.data.Header}/>
       </div>
     )

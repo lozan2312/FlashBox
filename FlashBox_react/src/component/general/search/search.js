@@ -27,7 +27,7 @@ class SearchBox extends React.Component{
         {this.state.isActive ?
           <div id="myOverlay" className="overlay"  style={this.state.style}>
             <div className="overlay-content">
-              <form action="/action_page.php">
+              <form methode="post" action="/search">
                 <input type="text" placeholder="Search.." name="search"/>
                 <button type="submit"><i className="fa fa-search"></i></button>
               </form>

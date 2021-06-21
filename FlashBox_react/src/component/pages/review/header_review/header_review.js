@@ -15,7 +15,7 @@ class HeaderReview extends React.Component{
           <Menu menu={this.props.header}/>
           <Navbar nav={this.props.header}/>
             <Title sclass="abouthead" id="logoheading"
-             logo_head="Flash Box" slogan=""/>
+             logo_head="Flash Box" slogan="review"/>
         </div>
       </div>
     )

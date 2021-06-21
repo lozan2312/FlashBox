@@ -11,17 +11,18 @@ const MyComponent = () => {
     const [ value2, setValue2 ] = React.useState(25);
     const [ value3, setValue3 ] = React.useState(25);
     const result=(setValue1,setValue2,setValue3)=>{
-      return(value1*value2*value3/5000)
+      var num=value1*value2*value3/6000
+      return(num.toFixed(2))
     }
   return (
     <div id="ex">
     <Form>
      <Form.Group as={Row}>
      <Form.Label>Length(cm):</Form.Label>
-       <Col xs="2">
+       <Col>
          <Form.Control value={value1}/>
        </Col>
-       <Col xs="2">
+       <Col>
          <RangeSlider
            value={value1}
            onChange={e => setValue1(e.target.value)}
@@ -31,10 +32,10 @@ const MyComponent = () => {
      </Form.Group>
      <Form.Group as={Row}>
      <Form.Label>Width(cm):</Form.Label>
-       <Col xs="2">
+       <Col>
          <Form.Control value={value2}/>
        </Col>
-       <Col xs="2">
+       <Col>
          <RangeSlider
            value={value2}
            onChange={e => setValue2(e.target.value)}
@@ -44,10 +45,10 @@ const MyComponent = () => {
      </Form.Group>
      <Form.Group as={Row}>
      <Form.Label>Height(cm):</Form.Label>
-       <Col xs="2">
+       <Col>
          <Form.Control value={value3}/>
        </Col>
-       <Col xs="2">
+       <Col>
          <RangeSlider
            value={value3}
            onChange={e => setValue3(e.target.value)}
@@ -56,7 +57,7 @@ const MyComponent = () => {
        </Col>
 
      </Form.Group>
-     <div>Package volume:{result()}</div>
+     <div className="m-5">Package Volumetric Weight:{result()}</div>
      </Form>
      </div>
   );
