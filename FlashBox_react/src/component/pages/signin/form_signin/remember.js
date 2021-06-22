@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../../../general/Button/Button';
 
 
 class RememberMe extends React.Component{
@@ -11,7 +10,6 @@ class RememberMe extends React.Component{
           <input className="form-check-input" type="checkbox" name="remember"/> Remember Me.
         </label>
       </div>
-      <a href="/customerProfile"><Button name="Submit" type="submit"/></a>
       </div>
     )
   }

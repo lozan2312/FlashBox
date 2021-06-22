@@ -2,7 +2,6 @@ import React from 'react';
 import './content_signup.css';
 import CustomerDetails from './customer_details'
 
-
 class ContentSignUp extends React.Component{
   constructor(props){
     super(props);

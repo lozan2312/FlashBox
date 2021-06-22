@@ -1,0 +1,27 @@
+#purchase{
+  background:rgb(26,26,26,0.4) ;;
+  margin-top: 150px;
+  color: white;
+  border-top: 4px solid yellow;
+  border-bottom: 4px solid yellow;
+}
+
+#purchase .btn{
+  background: white;
+  width:280px;
+  margin-bottom: 20px;
+}
+#purchase .btn:hover{
+  background: rgb(44, 51, 58,0.6);
+  color:white;
+}
+#purchase h2{
+  font-family: 'Caveat', cursive;
+  text-shadow: 2px 2px 8px black;
+  color:yellow;
+  font-size: 60px;
+}
+#purchase h4{
+margin: 20px;
+color: yellow;
+}

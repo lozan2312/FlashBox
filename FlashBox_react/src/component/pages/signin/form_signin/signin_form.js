@@ -1,5 +1,6 @@
 import React from "react";
-// import FormSignInJson from './form_signin_json';
+import RememberMe from './remember.js';
+import Button from '../../../general/Button/Button.js'
 
 
 class FormSignIn extends React.Component{
@@ -16,6 +17,9 @@ class FormSignIn extends React.Component{
               <input type={item.type} class="form-control"  placeholder={item.placeholder} required/>
             </div>
           )})}
+          <RememberMe/>
+            <a href="/customerProfile">
+            <Button name="Submit" type="submit"/></a>
       </div>
     )
   }

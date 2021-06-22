@@ -17,7 +17,7 @@ class HeaderHome extends React.Component{
           <Menu menu={this.props.data.Header}/>
           <Navbar nav={this.props.data.Header}/>
           <Title sclass="sloganhome" id="logohead" logo_head="Flash Box" slogan="Express Courier Services"/>
-          <TrackBox data={this.props.data.Content.Tracking}/>
+          <TrackBox data={this.props.data.Content}/>
         </div>
       </div>
     )

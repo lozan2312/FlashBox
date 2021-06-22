@@ -5,9 +5,8 @@ var bodyParser = require('body-parser');
 
 
 module.exports.LocationPricePage = async (req,res)=>{
-  // let type=req.body.type;
-  let type='Standard';
-  let region='north';
-  let weight='up to 1kg';
+  let type= req.body.type;
+  let region = req.body.region;
+  let weight = req.body.weight;
   res.json(await LocationPriceDB.PriceJson(type,region,weight));
 }

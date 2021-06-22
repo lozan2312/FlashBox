@@ -8,9 +8,8 @@ const review = require('./modules/pages/review/review_controller.js');
 const signin = require('./modules/pages/signin/signin_controller.js');
 const transaction = require('./modules/pages/transaction/transaction_controller.js');
 const signup = require('./modules/pages/signup/signup_controller.js');
-const generalDB = require('./general_DB.js');
 const locationPrice = require('./modules/pages/transaction/LocationPrice/LocationPrice_controller.js');
-
+const jsonParser = express.json();
 
 app.get('/home', home.HomePage)
 app.get('/review', review.ReviewPage)
@@ -18,12 +17,7 @@ app.get('/about', aboutus.AboutPage)
 app.get('/contact', contact.ContactPage)
 app.get('/signin', signin.SignInPage)
 app.get('/transaction', transaction.TransactionPage)
-
-app.post('/transaction/LocationPrice',locationPrice.LocationPricePage)
-
-
-
-
+app.post('/transaction/LocationPrice', jsonParser, locationPrice.LocationPricePage)
 app.get('/signup', signup.SignUpPage)
 
 

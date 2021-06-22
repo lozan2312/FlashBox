@@ -31,28 +31,19 @@ class TrackBox extends React.Component {
         <form method="post" action="/tracking" onSubmit={this.formSubmit}>
           <h3 className="col-12 text-center font-weight-bolder">Quick Tracking</h3>
           <div className="form-inline justify-content-center mt-4">
-          <input
-            type='text'
-            onChange={this.onValueChange}
-            className="form-control input-field col-4"
-            placeHolder="Tracking ID"
-            required
-          />
+          <input type='text' onChange={this.onValueChange} className="form-control input-field col-4" placeHolder="Tracking ID" required/>
             <button className="btn btn-block text-uppercase" data-toggle="modal" data-target="#tracking">track</button>
-            <div class="modal fade" id="tracking" tabindex="-1" role="dialog" aria-labelledby="trackingLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="trackingLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div className="modal fade" id="tracking" tabindex="-1" role="dialog" aria-labelledby="trackingLabel" aria-hidden="true">
+              <div className="modal-dialog modal-lg" role="document">
+                <div className="modal-content ">
+                  <div className="modal-header">
+                    <h5 className="modal-title font-weight-bold pt-2" id="trackingLabel">Track Your Package</h5>
+                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
+                  <div className="modal-body">
                     <Tracking data={this.props.data}/>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>

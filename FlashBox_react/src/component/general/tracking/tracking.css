@@ -123,3 +123,11 @@
         width: 50%
     }
 }
+
+#track .card{
+  color: rgb(26,26,26)
+}
+
+#track .status{
+  padding-top: 13px;
+}

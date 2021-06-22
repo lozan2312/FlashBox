@@ -17,7 +17,7 @@ class ContentAbout extends React.Component{
            <h6>Step by step</h6>
            <AboutInner data={this.props.data.Details}/>
            <CardFactors json={this.props.data.Factors} title="The price is determined by several factors"/>
-           <h2 className="text-center display-3 p-5">Subscription</h2>
+           <h2 className="text-center display-3 p-5">Transactions</h2>
            <CardNumber json={this.props.data.Deals} id="aboutdeal" href="/transaction"/>
       </div>
     )
